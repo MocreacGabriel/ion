@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Include the styles.css file -->
 </head>
 
 <body>
@@ -14,58 +14,66 @@
 
     <header>
         <div class="header-image">
-            <img src="download.jpg" alt="Your Image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/African_Bush_Elephant.jpg">
         </div>
         <div class="header-content">
-            <h1>Ceaicovschi Dumitru</h1>
-            <p>Computer Science Enthusiast</p>
+            <h1>Gabriel</h1>
+            <p>Personal Portfolio</p>
         </div>
     </header>
-    
 
     <nav>
-        <button class="nav-button" onclick="showSection(0)">About Me</button>
-        <button class="nav-button" onclick="showSection(1)">Skills</button>
-        <button class="nav-button" onclick="showSection(2)">Projects</button>
-        <button class="nav-button" onclick="showSection(3)">Education</button>
-        <button class="nav-button" onclick="showSection(4)">Contact</button>
+        <button class="nav-button" onclick="showSection(0)">Home</button>
+        <button class="nav-button" onclick="showSection(1)">About Me</button>
+        <button class="nav-button" onclick="showSection(2)">Skills</button>
+        <button class="nav-button" onclick="showSection(3)">Projects</button>
+        <button class="nav-button" onclick="showSection(4)">Education</button>
+        <button class="nav-button" onclick="showSection(5)">Contact</button>
     </nav>
+
+    <section id="home" class="content-section active">
+        <h2>This is the Home Page</h2>
+        <p>Welcome to my personal portfolio website.</p>
+    </section>
 
     <section id="about" class="content-section">
         <h2>About Me</h2>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.".</p>
+        <p>I am enrolled at the esteemed Orizont Private High School situated in the suburban expanse of Durlesti. Not only am I engaged in scholastic pursuits, but I also actively contribute to both the school's volleyball team and its scientific endeavors.</p>
     </section>
 
     <section id="skills" class="content-section">
         <h2>Skills</h2>
         <ul>
-            <li>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
-            <li> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </li>
-            <li>  
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</li>
+            <li>Volleyball</li>
+            <li>Since</li>
+            <li>Edging</li>
+            <!-- Add more skills as needed -->
         </ul>
     </section>
 
     <section id="projects" class="content-section">
         <h2>Projects</h2>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+        <p>Explore some of the exciting projects I've worked on:</p>
+        <!-- Add project details and images here -->
     </section>
 
     <section id="education" class="content-section">
         <h2>Education</h2>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+        <p>Currently pursuing a future in science engineer.</p>
     </section>
 
     <section id="contact" class="content-section">
         <h2>Contact</h2>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+        <p>Feel free to reach out to me. You can contact me at : mocreacgabriell@gmail.com</p>
     </section>
 
     <footer>
-        <p>&copy; 2023 Ceaicovschi Dumitru - Personal Portfolio</p>
+        <div class="container">
+            <p>&copy; 2023 Gabriel</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
 
-</html>
+</html>  
