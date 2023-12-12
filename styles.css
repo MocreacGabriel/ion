@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -16,13 +16,13 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('image.jpg') center/cover fixed no-repeat; /* Add your background image URL here */
+    background: url('https://netstorage-legit.akamaized.net/images/135d63472efd5e68.jpg') center/cover fixed no-repeat; /* Updated background image URL */
     filter: blur(5px); /* Adjust the blur intensity as needed */
     z-index: -1; /* Place the background behind other content */
 }
 
 header {
-    background-color: rgba(51, 51, 51, 0.8); /* Add a semi-transparent background color for better contrast with text */
+    background-color: #FF4500; /* Light Salmon */
     color: white;
     text-align: center;
     padding: 2em;
@@ -42,9 +42,9 @@ header {
     border-radius: 50%; /* Make the image circular, adjust as needed */
 }
 
-
 nav {
-    background-color: rgba(85, 85, 85, 0.8); /* Semi-transparent background for better readability */
+    background-color: #FFA07A; /* Tomato */
+    color: white;
     padding: 1em;
     text-align: center;
     position: absolute;
@@ -53,14 +53,16 @@ nav {
     transform: translateX(-50%);
     display: flex;
     gap: 10px;
+    border-radius: 20px; /* Adjust the border-radius for circular peaks */
 }
 
 .nav-button {
     padding: 15px; /* Increase button padding */
-    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background for better readability */
+    background-color: #FF4500; /* Light Salmon */
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 10px; /* Adjust the border-radius for circular peaks */
 }
 
 .content-section {
@@ -71,7 +73,7 @@ nav {
     opacity: 0;
     transition: opacity 0.3s, transform 0.5s;
     padding: 4em; /* Increase the padding for more space */
-    background-color: rgba(105, 105, 105, 0.8); /* Semi-transparent white background for better readability */
+    background-color: #FF6347; /* Tomato */
     box-shadow: 0 0 40px rgba(0, 0, 0, 3); /* Increase the shadow size for a pronounced 3D effect */
     border-radius: 16px; /* Increase the border radius for a smoother look */
     border: 3px solid #333; /* Add a thicker border */
@@ -85,15 +87,15 @@ nav {
 
 .content-section.active {
     opacity: 1;
-    transform: translate(-50%, -50%); /* Center the section both horizontally and vertically */
+    transform: translate(-50%, 0); /* Adjust the second value to control how much the section pops down */
 }
 
 footer {
-    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background for better readability */
+    background-color: #0d0c0d; /* Forest Green */
     color: white;
     text-align: center;
-    padding: 1em;
-    position: absolute;
+    padding: 10px 0;
+    position: fixed;
     bottom: 0;
     width: 100%;
     margin-top: 20px;
