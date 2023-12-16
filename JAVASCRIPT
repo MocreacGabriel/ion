@@ -1,21 +1,2 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const sections = document.querySelectorAll(".content-section");
 
-  function showSection(index) {
-    sections.forEach((section, i) => {
-      if (i === index) {
-        section.classList.add("active");
-      } else {
-        section.classList.remove("active");
-      }
-    });
-  }
-
-  const navButtons = document.querySelectorAll(".nav-button");
-  navButtons.forEach((button, index) => {
-    button.addEventListener("click", function () {
-      showSection(index);
-    });
-  });
-});
 
