@@ -97,13 +97,4 @@ nav {
     transform: translate(-50%, 0);
 }
 
-footer {
-    background-color: #a399fd;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    margin-top: 20px;
-}
+
