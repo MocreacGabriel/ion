@@ -64,11 +64,12 @@ nav {
     padding: 22px;
     cursor: pointer;
     border-radius: 10px;
-    background-color: #9ed6ff; /* Change to the same blue color */
-}
+    background-color: #9ed6ff; 
+    border: 3px solid #00ADB5; 
 
 .nav-button:hover {
-    background-color: #00ADB5; /* Change to a slightly darker blue on hover if desired */
+    background-color: #00ADB5; 
+    border: 3px solid #005580; 
 }
 
 
